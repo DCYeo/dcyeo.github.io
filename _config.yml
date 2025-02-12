@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "DCY / Site Title"
+title                    : "Duancheng Yang/ Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -23,13 +23,13 @@ repository               : "dcyeo/dcyeo.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "DCY"
+  name             : "Duancheng Yang"
   #pronouns         :  example: "she/her"  
   bio              : "Political Scientist; Lecturer"
   location         : "Shanghai"
-  employer         : "Red Brick University"
+  employer         : "East China University of Political Science and Law"
   uri              :  URL
-  email            : "none@example.org" 
+  email            : "dcyang[at]ecupl[dot]edu[dot]cn" 
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
