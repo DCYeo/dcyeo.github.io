@@ -1,14 +1,12 @@
 ---
-title: "Teaching experience 1"
+title: "Political Systems of Imperial China"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+venue: "School of Government, East China University of Political Science and Law"
 date: 2014-01-01
-location: "City, Country"
+location: "Songjiang, Shanghai, PRC"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
 
 Heading 1
 ======
