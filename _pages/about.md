@@ -10,7 +10,7 @@ redirect_from:
 # 明鏡所以照形，古事所以知今
 # Welcome
 
-I obtained my PhD in political science from Renmin University of China in 2022.
+I obtained my PhD in political science from Renmin University of China in 2022. My PhD studies were conducted under the formal supervision of Professor Guangbin Yang (杨光斌教授), with substantial intellectual mentorship from Professor Tuan-Hwee Sng during my joint PhD program in National University of Singapore. I was also fortunate to work closely with Professor Yun-han Chu (朱云汉教授) as his research assistant from 2018 to 2022, during his appointment as Wu Yuzhang Chair Professor (吴玉章讲座教授) at Renmin University of China. Professor Chu's mentorship significantly shaped my academic development and research perspective.
 
 Now I’m a lecturer at School of Government, East University of Political Science and Law. I specialize in historcial political economy and public opinion, focusing on China. 
 
