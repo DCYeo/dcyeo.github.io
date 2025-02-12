@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "School of Government, East China University of Political Science and Law"
-date: 2022-present
+date: "2022-present"
 location: "Songjiang District, Shanghai, PRC"
 ---
 
