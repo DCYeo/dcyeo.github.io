@@ -28,7 +28,7 @@ author:
   bio              : "Political Scientist; Lecturer"
   location         : "Shanghai"
   employer         : "East China University of Political Science and Law"
-  uri              :  URL
+  # uri              :  URL
   email            : "dcyang[at]ecupl[dot]edu[dot]cn" 
 
   # Academic websites
