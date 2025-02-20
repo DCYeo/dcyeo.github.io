@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Duancheng Yang"
+title                    : "Duancheng Yang/杨端程"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
