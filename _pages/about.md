@@ -18,4 +18,4 @@ My current teaching responsibilities include *Political Systems of Imperial Chin
 
 My work has appeared in peer-reviewed journals such as *Journal of Chinese Political Science*, *World Economics and Politics* (《世界经济与政治》), *Sociological Review of China* (《社会学评论》), *Fudan Political Science Review* (《复旦政治学评论》), and other journals. Published articles and reviews are listed on the [Publications]({{ site.baseurl }}/publications/) page, and current working papers are available on the [Working Papers]({{ site.baseurl }}/working-papers/) page.
 
-I am also engaged in translation work, especially book-length works in historical sociology, nationalism, methodology, and contentious politics. Selected translated books are listed on the [Books]({{ site.baseurl }}/books/) page.
+I am also engaged in translation work, especially book-length works in historical sociology, nationalism, methodology, and contentious politics. Published and forthcoming book translations are listed on the [Books]({{ site.baseurl }}/books/) page.
