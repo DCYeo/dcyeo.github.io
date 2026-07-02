@@ -1,0 +1,132 @@
+---
+---
+
+.home-intro,
+.page-intro {
+  max-width: 44rem;
+  margin: 0 0 1.5rem;
+  color: #4f5965;
+  line-height: 1.75;
+}
+
+.home-quicklinks {
+  margin-top: 1.5rem;
+}
+
+.home-quicklinks .feature__wrapper {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.home-quicklinks .feature__item {
+  margin-bottom: 1rem;
+}
+
+.home-quicklinks .archive__item {
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  background: var(--global-bg-color);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.04);
+}
+
+.home-quicklinks .archive__item-title {
+  margin-top: 0;
+  border-bottom: 0;
+  font-size: 1.12rem;
+}
+
+.home-quicklinks .archive__item-excerpt {
+  margin-top: 0.35rem;
+}
+
+.entry-list {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.entry-card {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  background: var(--global-bg-color);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.04);
+}
+
+.entry-card--book {
+  grid-template-columns: minmax(118px, 165px) 1fr;
+  align-items: start;
+}
+
+.entry-card--paper,
+.entry-card--publication,
+.entry-card--text-only {
+  grid-template-columns: 1fr;
+}
+
+.entry-card__body {
+  min-width: 0;
+}
+
+.entry-card__cover {
+  width: 100%;
+  max-width: 165px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.16);
+}
+
+.entry-card__eyebrow {
+  margin: 0 0 0.35rem;
+  color: #6b7280;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.entry-card__title {
+  margin: 0 0 0.6rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+  line-height: 1.35;
+  font-size: 1.12rem;
+}
+
+.entry-card__meta {
+  margin: 0 0 0.55rem;
+  color: #3f4650;
+  line-height: 1.7;
+}
+
+.entry-card__notes {
+  margin: 0.1rem 0 0;
+  color: #5d6670;
+  line-height: 1.7;
+}
+
+.entry-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.entry-card__links .btn {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .entry-card--book {
+    grid-template-columns: 1fr;
+  }
+
+  .entry-card__cover {
+    width: min(165px, 62%);
+  }
+}

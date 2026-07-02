@@ -5,149 +5,60 @@ permalink: /books/
 author_profile: true
 ---
 
-<style>
-  .book-intro {
-    max-width: 720px;
-    margin: 0 0 1.6rem;
-    color: #4f5965;
-  }
-
-  .book-list {
-    display: grid;
-    gap: 1.25rem;
-  }
-
-  .book-entry {
-    display: grid;
-    grid-template-columns: minmax(118px, 150px) 1fr;
-    gap: 1.2rem;
-    align-items: stretch;
-    padding: 1rem;
-    border: 1px solid #d9dee3;
-    border-radius: 8px;
-    background: #fff;
-  }
-
-  .book-cover {
-    min-height: 210px;
-    aspect-ratio: 2 / 3;
-    border-radius: 6px;
-    padding: 1rem 0.85rem;
-    display: flex;
-    align-items: flex-end;
-    box-shadow: 0 8px 18px rgba(20, 28, 36, 0.15);
-    color: #fff;
-    font-weight: 700;
-    line-height: 1.35;
-  }
-
-  .book-cover span {
-    display: block;
-  }
-
-  .book-cover--war {
-    background: linear-gradient(155deg, #263238 0%, #7b342f 100%);
-  }
-
-  .book-cover--discovery {
-    background: linear-gradient(155deg, #24524a 0%, #b67835 100%);
-  }
-
-  .book-cover--contention {
-    background: linear-gradient(155deg, #483d3f 0%, #8a6f3d 100%);
-  }
-
-  .book-cover--forthcoming {
-    background: linear-gradient(155deg, #334155 0%, #5f6f52 100%);
-  }
-
-  .book-role {
-    margin: 0 0 0.35rem;
-    color: #6b7280;
-    font-size: 0.82rem;
-    text-transform: uppercase;
-  }
-
-  .book-entry h2 {
-    margin-top: 0;
-    margin-bottom: 0.55rem;
-    font-size: 1.18rem;
-  }
-
-  .book-entry p {
-    margin-bottom: 0.55rem;
-  }
-
-  .book-meta {
-    color: #3f4650;
-  }
-
-  @media (max-width: 640px) {
-    .book-entry {
-      grid-template-columns: 1fr;
-    }
-
-    .book-cover {
-      width: min(150px, 55%);
-      min-height: 210px;
-    }
-  }
-</style>
-
-<p class="book-intro">This page lists published and forthcoming book-length translations. The design follows a compact book-shelf format: a visual cover panel, the Chinese title, and the original work information.</p>
+<p class="page-intro page__lead">This page lists published and forthcoming book-length translations. Each entry combines the cover image, Chinese title, original work, and translation details in a compact shelf-style layout.</p>
 
 <h2>Published Translations</h2>
 
-<div class="book-list">
-  <article class="book-entry">
-    <div class="book-cover book-cover--war">
-      <span>战争之波</span>
-    </div>
-    <div>
-      <p class="book-role">Translated Book</p>
-      <h2>战争之波：现代世界中的民族主义、国家形成与族群排斥</h2>
-      <p class="book-meta">Chinese translation of Andreas Wimmer, <em>Waves of War: Nationalism, State Formation, and Ethnic Exclusion in the Modern World</em>.</p>
-      <p>Translator: Duancheng Yang.</p>
-    </div>
-  </article>
-
-  <article class="book-entry">
-    <div class="book-cover book-cover--discovery">
-      <span>探索之道</span>
-    </div>
-    <div>
-      <p class="book-role">Translated Book</p>
-      <h2>探索之道：社会科学的启发式研究法</h2>
-      <p class="book-meta">Chinese translation of Andrew Abbott, <em>Methods of Discovery: Heuristics for the Social Sciences</em>.</p>
-      <p>Translators: Duancheng Yang and Qi Song.</p>
+<div class="entry-list">
+  <article class="entry-card entry-card--book">
+    <img class="entry-card__cover" src="{{ '/images/books/waves-of-war-chinese-cover.jpg' | relative_url }}" alt="《战争之波：现代世界中的民族主义、国家形成与族群排斥》书封" loading="lazy" decoding="async">
+    <div class="entry-card__body">
+      <p class="entry-card__eyebrow">Published Translation</p>
+      <h3 class="entry-card__title">战争之波：现代世界中的民族主义、国家形成与族群排斥</h3>
+      <p class="entry-card__meta">Chinese translation of Andreas Wimmer, <em>Waves of War: Nationalism, State Formation, and Ethnic Exclusion in the Modern World</em>.</p>
+      <p class="entry-card__notes">Translator: Duancheng Yang. Published by Truth &amp; Wisdom Press / Shanghai People's Publishing House, 2023.</p>
+      <div class="entry-card__links">
+        <a href="https://book.douban.com/subject/36531040/" class="btn btn--small">Book page</a>
+      </div>
     </div>
   </article>
 
-  <article class="book-entry">
-    <div class="book-cover book-cover--contention">
-      <span>英国的大众抗争</span>
+  <article class="entry-card entry-card--book">
+    <img class="entry-card__cover" src="{{ '/images/books/methods-of-discovery-chinese-cover.jpg' | relative_url }}" alt="《探索之道：社会科学的启发式研究法》书封" loading="lazy" decoding="async">
+    <div class="entry-card__body">
+      <p class="entry-card__eyebrow">Published Translation</p>
+      <h3 class="entry-card__title">探索之道：社会科学的启发式研究法</h3>
+      <p class="entry-card__meta">Chinese translation of Andrew Abbott, <em>Methods of Discovery: Heuristics for the Social Sciences</em>.</p>
+      <p class="entry-card__notes">Translators: Qi Song and Duancheng Yang. Published by Shanghai Literature and Art Publishing House, 2025.</p>
+      <div class="entry-card__links">
+        <a href="https://book.douban.com/subject/37195799/" class="btn btn--small">Book page</a>
+      </div>
     </div>
-    <div>
-      <p class="book-role">Translated Book</p>
-      <h2>英国的大众抗争（1758—1834年）</h2>
-      <p class="book-meta">Chinese translation of Charles Tilly, <em>Popular Contention in Great Britain, 1758-1834</em>.</p>
-      <p>Translators: Duancheng Yang and Hanyuan Qin.</p>
+  </article>
+
+  <article class="entry-card entry-card--book">
+    <img class="entry-card__cover" src="{{ '/images/books/popular-contention-great-britain-chinese-cover.jpg' | relative_url }}" alt="《英国的大众抗争（1758—1834年）》书封" loading="lazy" decoding="async">
+    <div class="entry-card__body">
+      <p class="entry-card__eyebrow">Published Translation</p>
+      <h3 class="entry-card__title">英国的大众抗争（1758—1834年）</h3>
+      <p class="entry-card__meta">Chinese translation of Charles Tilly, <em>Popular Contention in Great Britain, 1758-1834</em>.</p>
+      <p class="entry-card__notes">Translators: Hanyuan Qin and Duancheng Yang. Published by Truth &amp; Wisdom Press, 2026.</p>
+      <div class="entry-card__links">
+        <a href="https://book.douban.com/subject/37841580/" class="btn btn--small">Book page</a>
+      </div>
     </div>
   </article>
 </div>
 
 <h2>Forthcoming Translation</h2>
 
-<div class="book-list">
-  <article class="book-entry">
-    <div class="book-cover book-cover--forthcoming">
-      <span>兴衰</span>
-    </div>
-    <div>
-      <p class="book-role">Forthcoming Translation</p>
-      <h2>兴衰：国家发展的社会起源</h2>
-      <p class="book-meta">Chinese translation of Yuhua Wang, <em>The Rise and Fall of Imperial China: The Social Origins of State Development</em>.</p>
-      <p>Translator: Duancheng Yang.</p>
+<div class="entry-list">
+  <article class="entry-card entry-card--text-only">
+    <div class="entry-card__body">
+      <p class="entry-card__eyebrow">Forthcoming Translation</p>
+      <h3 class="entry-card__title">兴衰：国家发展的社会起源</h3>
+      <p class="entry-card__meta">Chinese translation of Yuhua Wang, <em>The Rise and Fall of Imperial China: The Social Origins of State Development</em>.</p>
+      <p class="entry-card__notes">Translator: Duancheng Yang.</p>
     </div>
   </article>
 </div>
