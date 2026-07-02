@@ -5,32 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>Journal Articles</h2>
 
-{% include base_path %}
+<h3>Voices from within: Tracing Chinese Public Perceptions of Democracy in the New Era</h3>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<p>Duancheng Yang, Yuan Zhou, and Yun-han Chu. 2025. <em>Journal of Chinese Political Science</em> 30(2): 169-193.<br>
+<a href="https://link.springer.com/article/10.1007/s11366-024-09894-2">Publisher page</a> | <a href="https://doi.org/10.1007/s11366-024-09894-2">DOI</a></p>
 
+<h2>Book Reviews</h2>
 
+<h3>Democracy through the lens of Chinese scholars: the battle of ideas</h3>
 
+<p>Duancheng Yang. 2026. <em>Asian Studies Review</em>, 1-2.<br>
+<a href="https://www.tandfonline.com/eprint/EKWREJUEDKXTHUTURK6R/full?target=10.1080/10357823.2026.2644648">Publisher eprint</a> | <a href="https://doi.org/10.1080/10357823.2026.2644648">DOI</a></p>
