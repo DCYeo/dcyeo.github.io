@@ -26,7 +26,7 @@ feature_row:
   <p class="home-intro page__lead">I am a lecturer at the School of Government, East China University of Political Science and Law. My research lies at the intersection of historical political economy, state formation, elite politics, and public opinion, with a substantive focus on China.</p>
   <p class="home-meta-line">
     <span>Historical Political Economy</span>
-    <span>State Formation</span>
+    <span>State Formation and State Building</span>
     <span>Elite Politics</span>
     <span>Public Opinion</span>
   </p>
@@ -36,7 +36,7 @@ feature_row:
   <h2>Research Focus</h2>
   <div class="home-focus-grid">
     <article class="home-focus-card">
-      <h3>State Formation</h3>
+      <h3>State Formation and State Building</h3>
       <p>Historical institutions, bureaucratic reform, and the long-run development of political order in China.</p>
     </article>
     <article class="home-focus-card">
