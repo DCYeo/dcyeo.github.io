@@ -57,26 +57,30 @@
 }
 
 .home-hero .home-intro {
+  max-width: 40rem;
   margin-bottom: 1rem;
 }
 
 .home-meta-line {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 0.8rem;
+  gap: 0.45rem;
   margin: 0;
-  color: #3f4650;
-  font-size: 0.88rem;
+  max-width: 40rem;
+  color: #2f4750;
+  font-size: 0.82rem;
+  line-height: 1.35;
 }
 
 .home-meta-line span {
-  padding-right: 0.8rem;
-  border-right: 1px solid #c9d7d3;
-}
-
-.home-meta-line span:last-child {
-  padding-right: 0;
-  border-right: 0;
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  padding: 0.22rem 0.62rem;
+  border: 1px solid #c9d7d3;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.035);
 }
 
 .home-section {

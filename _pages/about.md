@@ -25,7 +25,6 @@ feature_row:
   <h1 class="home-name">Duancheng Yang</h1>
   <p class="home-intro page__lead">I am a lecturer at the School of Government, East China University of Political Science and Law. My research lies at the intersection of historical political economy, state formation, elite politics, and public opinion, with a substantive focus on China.</p>
   <p class="home-meta-line">
-    <span>Historical Political Economy</span>
     <span>State Formation and State Building</span>
     <span>Elite Politics</span>
     <span>Public Opinion</span>
